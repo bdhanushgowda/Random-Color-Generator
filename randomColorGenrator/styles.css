@@ -1,0 +1,41 @@
+html, body {
+    font-size: 22px;
+}
+
+main{
+    min-height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.container{
+    text-align: center;
+    max-width: 600px;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container h2{
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.btn{
+    text-transform: capitalize;
+    color: #222;
+    font-weight: bold;
+    padding: 8px;
+    border: 2px solid black;
+    cursor: pointer;
+    box-shadow: inset;
+    font-size: 20px;
+}
+
+.btn:hover{
+    color: #fff;
+    background-color:#ff0090;
+}
